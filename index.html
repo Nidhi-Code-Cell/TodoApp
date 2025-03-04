@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do-To-List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="contentBox">
+            <div id="head">
+                <h1>Stellar Tasks<img src='images/headimg.jpeg' alt=''></h1>
+                <p>Organise your day, acheive your dreams</p>
+            </div>
+            <div id="to_do_lst">
+                <div id="task">
+                    <input type="text" id="inputPlace" placeholder="What's your today Goal ?">
+                    <button onclick="AddTask()">Add</button>
+                </div >
+                
+                    <div id="notask">
+                        <img src="images/notask.png" alt="">
+                    <h3>No task yet</h3> 
+                    <p>Add a task to get started</p>
+                </div>
+                <ul class="task_container">
+                    <!-- <li class="list_goal">my first task</li> -->
+                </ul>
+
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
